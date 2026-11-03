@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seaborn
+pillow
+scikit-learn
+imagehash
+tqdm
+kaggle
