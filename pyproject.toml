@@ -6,14 +6,17 @@ readme = "README.md"
 authors = [
     { name = "Nikita", email = "nikitatarasov987@gmail.com" }
 ]
-requires-python = ">=3.15"
+requires-python = ">=3.12"
 dependencies = [
+    "imagehash>=4.3.2",
     "kagglehub>=1.0.3",
     "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
     "pandas>=3.1.0",
     "pillow>=13.0.0",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "tqdm>=4.70.1",
 ]
 
 [project.scripts]
@@ -22,3 +25,8 @@ dependencies = [
 [build-system]
 requires = ["uv_build>=0.12.10,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
