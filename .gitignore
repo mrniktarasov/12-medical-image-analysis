@@ -224,3 +224,4 @@ data/*
 !data/metadata.csv
 !data/splits.csv
 kaggle.json
+notebooks/data
