@@ -7,4 +7,3 @@ pillow==11.3.0
 scikit-learn==1.6.1
 imagehash==4.3.2
 tqdm==4.67.3
-kaggle==2.0.2
