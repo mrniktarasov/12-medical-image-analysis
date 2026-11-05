@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project
+data/*
+!data/metadata.csv
+!data/splits.csv
+kaggle.json
+notebooks/data
