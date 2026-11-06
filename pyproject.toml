@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 authors = [
-    { name = "Nikita", email = "nikitatarasov987@gmail.com" }
+    { name = "Nikita", email = "nikitatarasov987@gmail.com" },
+    { name = "VasiliiDrozdov", email = "vasilii.drozdov.2000@gmail.com" },
+    { name = "VSaninV" },
+    { name = "Yuliya" }
 ]
 requires-python = ">=3.12"
 dependencies = [
@@ -17,6 +20,8 @@ dependencies = [
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
     "tqdm>=4.70.1",
+    "opencv-python>=5.0.0.93",
+    "jupyter>=1.1.1",
 ]
 
 [project.scripts]
