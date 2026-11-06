@@ -225,3 +225,5 @@ data/*
 !data/splits.csv
 kaggle.json
 notebooks/data
+# Mac system files
+.DS_Store
